@@ -6,9 +6,10 @@ const CampoTexto = (props) => { //props é um parâmetro padrão, mas pode ser q
 
     // let valor = 'Flávio Marques' ao invés de usar um let, é usado um hook, um useState
 
-    const [valor, setValor] = useState('') // useState gera um pseudovariável, com um parâmetro de valor e outro de leitura
+    const [valor, setValor] = useState('') // useState gera um pseudovariável, com um parâmetro de valor e outro de leitura, equivale a uma variável que retorna uma string vazia, só que no react é um hook.
 
     const aoDigitado = (evento) => {
+        // setValor(evento.target.value)
         props.aoAlterado(evento.target.value)
     }
 
