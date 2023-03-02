@@ -1,0 +1,43 @@
+.rodape{
+    background-color: #6278F7;
+    display: flex;
+    padding: 80px;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.rodape div{
+    width: 20%;
+    display: flex;
+    margin: 0 10px;
+    justify-content: space-evenly;
+}
+.rodape p{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+
+/* Abaixo a sugestão do professor
+/* src/componentes/Rodape/index.js */
+
+/* .footer {
+    background: #6278F7;
+    color: #FFF;
+    padding: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer ul li {
+    display: inline-block;
+    margin-right: 32px;
+}
+
+.footer ul li:last-child {
+    margin-right: 0;
+} */ 
