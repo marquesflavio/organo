@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import Banner from './compenentes/Banner';
 import Formulario from './compenentes/Formulario';
-import Rodape from './compenentes/Rodape';
+import Rodape from './compenentes/Footer';
 import Time from './compenentes/Time';
 
 function App() {
@@ -47,7 +47,7 @@ function App() {
   const [colaboradores, setColaboradores] = useState ([])
 
   const aoNovoColaboradorAdicionado = (colaborador) =>{
-    console.log(colaborador)
+    // debugger
     setColaboradores([...colaboradores, colaborador]) // spread operator para pegar todos os dados antigos e adicionar novos
 
   }

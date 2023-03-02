@@ -1,4 +1,4 @@
-.rodape{
+.footer{
     background-color: #6278F7;
     display: flex;
     padding: 80px;
@@ -7,13 +7,13 @@
     align-items: center;
 
 }
-.rodape div{
+.footer div{
     width: 20%;
     display: flex;
     margin: 0 10px;
     justify-content: space-evenly;
 }
-.rodape p{
+.footer p{
     color: #FFF;
     font-size: 20px;
     font-weight: bold;
