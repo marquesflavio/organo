@@ -1,19 +1,12 @@
-# Link do Deploy
+#Organo
 
+##Objetivo do Projeto
+Primeiro projeto completo em Reactjs, o objetivo foi a construção de um formulário para cadastro de colaborados separando por área de atuação.
+
+##O que aprendi com o projeto
+Tive meu primeiro contato com organização de pastas, a forma de criar um componente, estilização no React, props e o hook useState.
+
+##Link para o deploy
 organo-gray-delta.vercel.app
 
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
